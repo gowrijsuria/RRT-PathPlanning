@@ -34,6 +34,7 @@ Specifically, the problem can be formed as follows: Consider a 2D grid instantia
 * Additionally, we also make sure the node is within the boundary
 * To find the RRT path, we used backtracking of all the parent nodes in the tree structure. 
 * We also find the wheel trajectories for all three wheels of the robot by following the RRT path.
+* ![Screenshot](./images/holo_wheels.png)
 
 ## Working of RRT for non-holonomic case
 * We used a differential drive robot for implementing RRT algorithm for the holonomic case. The robot with a length of 20 units and has two wheels aligned at an angle of 180 degrees from each other. 
@@ -52,7 +53,7 @@ Specifically, the problem can be formed as follows: Consider a 2D grid instantia
 * Additionally, we also make sure the node is within the boundary
 * To find the RRT path, we used backtracking of all the parent nodes in the tree structure. 
 * We also find the wheel trajectories for the two wheels of the robot by following the RRT path.
-
+* ![Screenshot](./images/non_holo_wheels.png)
 
 ## Videos of evolution of RRT tree with center velocity and wheel trajectories. 
 - [Holonomic robot with fixed obstacles](https://www.youtube.com/watch?v=a4b-kEUc80w)
