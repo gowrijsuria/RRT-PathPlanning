@@ -38,8 +38,8 @@ Specifically, the problem can be formed as follows: Consider a 2D grid instantia
 ## Working of RRT for non-holonomic case
 * We used a differential drive robot for implementing RRT algorithm for the holonomic case. The robot with a length of 20 units and has two wheels aligned at an angle of 180 degrees from each other. 
     **Differential Drive**
-* These robots have two wheels and the controllable parameters are velocity $$v$$ and angular velocity $$\omega$$
-* Velocities $$( v_{x} )$$ and $$(v_{y})$$ are not decoupled. They are coupled through the robot's instantaneous direction $$\theta$$
+* These robots have two wheels and the controllable parameters are velocity v and angular velocity omega
+* Velocities v_x and v_y are not decoupled. They are coupled through the robot's instantaneous direction theta
 
 * **Differential Drive Equations**
   $$v_{cx}(t) = v*cos(\omega t)$$
