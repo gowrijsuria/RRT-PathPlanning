@@ -42,9 +42,9 @@ Specifically, the problem can be formed as follows: Consider a 2D grid instantia
 * Velocities v_x and v_y are not decoupled. They are coupled through the robot's instantaneous direction theta
 
 * **Differential Drive Equations**
-  - v_cx(t) = v*cos(omega*t)
-  - v_cy(t) = v*sin(omega*t)
-  - v_cy(t) = v_cx(t)*tan(omega* t)
+  - v_cx(t) = v*cos(omega * t)
+  - v_cy(t) = v*sin(omega * t)
+  - v_cy(t) = v_cx(t)*tan(omega * t)
 
 
 * We used pygame interface to for custom selection of start and goal points. 
