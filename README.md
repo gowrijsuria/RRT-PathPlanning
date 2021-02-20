@@ -56,7 +56,7 @@ Specifically, the problem can be formed as follows: Consider a 2D grid instantia
     <img src="./images/non_holo_wheel.png" width="500" height="500">
 
 ### RRT with Pygame Hand drawn obstacles
-    <img src="./images/holo_draw.png" width="500" height="500">
+   <img src="./images/holo_draw.png" width="500" height="500">
 
 ## Videos of evolution of RRT tree with center velocity and wheel trajectories. 
 - [Holonomic robot with fixed obstacles](https://www.youtube.com/watch?v=a4b-kEUc80w)
