@@ -34,7 +34,7 @@ Specifically, the problem can be formed as follows: Consider a 2D grid instantia
 * Additionally, we also make sure the node is within the boundary
 * To find the RRT path, we used backtracking of all the parent nodes in the tree structure. 
 * We also find the wheel trajectories for all three wheels of the robot by following the RRT path.
-![Screenshot](./images/holo_wheels.png| width=300)
+![Screenshot](./images/holo_wheels.png){:height="50%" width="50%"}
 
 
 ## Working of RRT for non-holonomic case
@@ -54,10 +54,10 @@ Specifically, the problem can be formed as follows: Consider a 2D grid instantia
 * Additionally, we also make sure the node is within the boundary
 * To find the RRT path, we used backtracking of all the parent nodes in the tree structure. 
 * We also find the wheel trajectories for the two wheels of the robot by following the RRT path.
-![Screenshot](./images/non_holo_wheel.png| width=300)
+![Screenshot](./images/non_holo_wheel.png){:height="50%" width="50%"}
 
 ### RRT with Pygame Hand drawn obstacles
-![Screenshot](./images/holo_draw.png | width=300)
+![Screenshot](./images/holo_draw.png ){:height="50%" width="50%"}
 
 ## Videos of evolution of RRT tree with center velocity and wheel trajectories. 
 - [Holonomic robot with fixed obstacles](https://www.youtube.com/watch?v=a4b-kEUc80w)
