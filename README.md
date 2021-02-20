@@ -55,7 +55,7 @@ Specifically, the problem can be formed as follows: Consider a 2D grid instantia
 * We also find the wheel trajectories for the two wheels of the robot by following the RRT path.
     <img src="./images/non_holo_wheel.png" width="500" height="500">
 
-### RRT with Pygame Hand drawn obstacles
+## RRT with Pygame Hand drawn obstacles
    <img src="./images/holo_draw.png" width="500" height="500">
 
 ## Videos of evolution of RRT tree with center velocity and wheel trajectories. 
