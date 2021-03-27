@@ -20,7 +20,7 @@ Specifically, the problem can be formed as follows: Consider a 2D grid instantia
 ## How to Run:
 1. Install PyGame 1.9.4 module in Python 3
 2. run python3 <filename.py> and choose the filename accordingly
-    - **Holonomic robot with fixed obstacles** - run RRT-Holonomic-Robot.ipynb 
+    - **Holonomic robot with fixed obstacles** - run RRT_holonomic.py / RRT-Holonomic-Robot.ipynb 
     - **Holonomic robot with hand drawn obstacles** - RRT_holonomic_drawn.py
     - **Non Holonomic robot with fixed obstacles** - run RRT_nonholonomic.py / RRT-Non-Holonomic-Robot.ipynb 
     - **Non Holonomic robot with hand drawn obstacles** - RRT_nonholonomic_drawn.py
