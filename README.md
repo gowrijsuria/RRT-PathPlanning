@@ -22,7 +22,7 @@ Specifically, the problem can be formed as follows: Consider a 2D grid instantia
 2. run python3 <filename.py> and choose the filename accordingly
     - **Holonomic robot with fixed obstacles** - run RRT-Holonomic-Robot.ipynb 
     - **Holonomic robot with hand drawn obstacles** - RRT_holonomic_drawn.py
-    - **Non Holonomic robot with fixed obstacles** - run RRT-Non-Holonomic-Robot.ipynb 
+    - **Non Holonomic robot with fixed obstacles** - run RRT_nonholonomic.py / RRT-Non-Holonomic-Robot.ipynb 
     - **Non Holonomic robot with hand drawn obstacles** - RRT_nonholonomic_drawn.py
 3. When the UI window opens, click on the buttons and place the start, finish point and the draw the obstacles
 4. Then view the RRT graph evolution of the robot along with the center and wheel trajectories
